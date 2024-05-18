@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1034337350162",
+    "project_id": "petdaycarekotandfire-7387b",
+    "storage_bucket": "petdaycarekotandfire-7387b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034337350162:android:3a70dfe095bc1e86e61ecb",
+        "android_client_info": {
+          "package_name": "com.example.petdaycarekotandfire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz7hUv9pHg4essFGWWiJAtXB5j4S94DW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

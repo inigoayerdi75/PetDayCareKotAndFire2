@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/contenedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde_redondeado"
+        android:backgroundTint="@color/claro"
+        >
+
+        <TextView
+            android:id="@+id/textViewEtiquetaNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/nombre"
+            android:textSize="20sp"
+            android:textColor="#8E412E"
+            />
+
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fghfhfh"
+            android:layout_below="@+id/textViewEtiquetaNombre"
+            android:layout_alignStart="@+id/textViewEtiquetaNombre"
+            android:layout_alignEnd="@+id/textViewEtiquetaNombre"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textViewEtiquetaGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/g_nero"
+            android:layout_toRightOf="@+id/textViewEtiquetaNombre"
+            android:layout_alignTop="@+id/textViewEtiquetaNombre"
+            android:layout_marginLeft="12dp"
+            android:textSize="20sp"
+            android:textColor="#8E412E"
+            />
+
+        <TextView
+            android:id="@+id/textViewGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fsdfsf"
+            android:layout_below="@+id/textViewEtiquetaGenero"
+            android:layout_alignStart="@+id/textViewEtiquetaGenero"
+            android:layout_alignEnd="@+id/textViewEtiquetaGenero"
+            android:layout_alignTop="@+id/textViewNombre"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textViewEtiquetaDuenno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/due_o"
+            android:layout_alignTop="@+id/textViewEtiquetaGenero"
+            android:layout_toRightOf="@+id/textViewEtiquetaGenero"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#8E412E"
+            />
+
+        <TextView
+            android:id="@+id/textViewDueño"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fsdfds"
+            android:layout_below="@+id/textViewEtiquetaDuenno"
+            android:layout_alignTop="@+id/textViewNombre"
+            android:layout_alignStart="@+id/textViewEtiquetaDuenno"
+            android:layout_marginStart="8dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/perrocarapueq"
+            android:layout_marginEnd="5dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

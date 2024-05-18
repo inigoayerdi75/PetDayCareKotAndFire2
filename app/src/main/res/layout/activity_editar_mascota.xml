@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarMascota"
+    android:padding="5dp"
+    android:background="@drawable/fondo"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/datosMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/borde_redondeado"
+        android:backgroundTint="#F4ECE2"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageViewMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/editTextNombreAlta"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/perrocara"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:id="@+id/textViewEtiquetaNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextDuennoAlta"
+            android:layout_alignStart="@+id/textViewEtiquetaDuenno"
+            android:layout_marginTop="10dp"
+            android:text="@string/nombre_de_la_mascota"
+            android:textColor="#8E412E"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextNombreAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEtiquetaNombre"
+            android:ems="10"
+            android:hint="@string/max_15_char"
+            android:inputType="text"
+            android:maxLength="15"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewEtiquetaDuenno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/nombre_del_due_o"
+            android:textColor="#8E412E"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextDuennoAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEtiquetaDuenno"
+            android:layout_alignStart="@+id/textViewEtiquetaDuenno"
+            android:ems="10"
+            android:hint="@string/max_10_char"
+            android:inputType="text"
+            android:maxLength="15"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewEtiquetaEspecie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextNombreAlta"
+            android:layout_marginTop="10dp"
+            android:text="@string/especie_de_la_mascota"
+            android:textColor="#8E412E"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerEspecieAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEtiquetaEspecie"
+            android:layout_alignStart="@+id/textViewEtiquetaEspecie"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewEtiquetaGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerEspecieAlta"
+            android:layout_marginTop="10dp"
+            android:text="@string/raza"
+            android:textColor="#8E412E"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextRazaAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEtiquetaGenero"
+            android:ems="10"
+            android:hint="@string/max_15_char"
+            android:inputType="text"
+            android:maxLength="15"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewEtiquetaSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextNumberPesoAlta"
+            android:layout_marginTop="10dp"
+            android:text="@string/g_nero"
+            android:textColor="#8E412E"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerSexoAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEtiquetaSexo"
+            android:layout_alignStart="@+id/textViewEtiquetaSexo"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewEtiquetaPeso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextRazaAlta"
+            android:layout_marginTop="10dp"
+            android:text="@string/peso_kg"
+            android:textColor="#8E412E"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextNumberPesoAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewEtiquetaPeso"
+            android:ems="10"
+            android:hint="@string/max_5_char"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/botones"
+        android:layout_below="@+id/datosMascota"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <ImageButton
+            android:id="@+id/ImageButtonModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/modificarmascota"
+            android:background="@drawable/borde_redondo"
+            android:backgroundTint="#F4ECE2"
+            />
+
+        <ImageButton
+            android:id="@+id/ImageButtonEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/eliminarmascota"
+            android:background="@drawable/borde_redondo"
+            android:backgroundTint="#F4ECE2"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

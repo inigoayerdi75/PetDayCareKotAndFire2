@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PetDayCareKotAndFire</string>
+    <string name="acceder">ACCEDER</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="password_min_6_caracteres">Password (min 6 caracteres)</string>
+    <string name="introduce_los_datos_para_registrarte_o_para_acceder_si_ya_estas_registrado">Introduce los datos para registrarte o para acceder si ya estas registrado.</string>
+    <string name="max_5_char">(max. 5 char)</string>
+    <string name="peso_kg">Peso (Kg)</string>
+    <string name="especie_de_la_mascota">Especie de la mascota:</string>
+    <string name="max_15_char">(max 15 char)</string>
+    <string name="raza">Raza:</string>
+    <string name="g_nero">Género:</string>
+    <string name="nombre_de_la_mascota">Nombre de la mascota:</string>
+    <string name="nombre_del_due_o">Nombre del dueño:</string>
+    <string name="max_10_char">(max 10 char)</string>
+    <string name="no_existe_ninguna_mascota_n_a_ade_una_mascota_al_listado">No existe ninguna mascota.\n Añade una mascota al listado.</string>
+    <string name="e_mail">E-mail</string>
+    <string name="due_o">Dueño:</string>
+    <string name="nombre">Nombre:</string>
+</resources>

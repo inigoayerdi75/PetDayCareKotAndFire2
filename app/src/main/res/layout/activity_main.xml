@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#81AE9D">
+
+    <Button
+        android:id="@+id/buttonIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/acceder"
+        android:backgroundTint="#687259"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewInicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/imageninicio"
+        android:scaleType="centerCrop"
+        android:backgroundTint="#81AE9D"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        />
+
+</RelativeLayout>
